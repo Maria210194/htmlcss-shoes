@@ -4,3 +4,71 @@
     box-sizing: border-box;
 }
 
+body{
+    
+}
+
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+}
+
+nav{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+    line-height: 50px;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+#id1{
+    background-color: red;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.txt-yellow{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.txt-green{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: green;
+}
