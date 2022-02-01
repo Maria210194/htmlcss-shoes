@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    
-}
 
 header{
     position: fixed;
@@ -48,6 +45,14 @@ main{
     background-color: red;
 }
 
+#id2{
+    background-color: green;
+}
+
+#id3{
+    background-color: yellow;
+}
+
 section{
     position: relative;
     height: 100vh;
@@ -62,13 +67,19 @@ section{
 }
 
 .txt-yellow{
+    width: 100vw;
+    text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     color: yellow;
+    transform: translate(0px, 550px);
 }
 
 .txt-green{
+    width: 100vw;
+    text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     color: green;
+    transform: translate(0px, 550px);
 }
